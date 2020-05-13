@@ -1,0 +1,593 @@
+body
+	background: #f3f2ee
+.bb-d
+	border-bottom: 1px solid #ddd
+.bt-d
+	border-top: 1px solid #ddd
+.w-60
+	width: 60%
+.w-33
+	width: 32.7%
+.right-0
+	right: 0
+//----content----//
+.mainContent
+	.c-nav
+		padding: 10px 20px 15px
+		background: rgba(17,17,17,0.8)
+		ul
+			width: 40%
+			height: 42px
+		.left-ul
+			li
+				margin-right: 5px
+				&:not(:last-child) a
+					padding: 7.5px 18px
+					border-radius: 20px
+				&:last-child
+					margin-left: 5px
+					a
+						padding: 3px 9px
+						border-radius: 3px
+			.line
+				background: rgba(0,187,37,0.7)
+				.fa-line
+					font-size: 23px
+					color: rgba(18,149,44,1)
+					background: #fff
+					width: 16px
+					height: 14px
+					overflow: hidden
+					top: 2px
+					&::before
+						position: absolute
+						top: -4px
+						left: -2px
+				&:hover
+					background: rgba(0,187,37,1)
+					.fa-line
+						color: rgba(0,187,37,1)
+			.twitter
+				background: rgba(102,195,246,0.7)
+				&:hover
+					background: rgba(102,195,246,1)
+			.facebook
+				background: rgba(66,103,178,0.7)
+				&:hover
+					background: rgba(66,103,178,1)
+			.fb-like
+				background: #1877F2
+		.like
+			border-radius: 30px
+			z-index: 2
+			padding: 8px 26px
+			transition: all 0.35s
+			overflow: visible
+			box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, 0.5) inset
+			background: linear-gradient(90deg, #00a2e4, #a7cd6b, #00a2e4, #a7cd6b, #00a2e4)
+			background-size: 500%
+			animation: move 28s linear infinite
+			&::before
+				content: ""
+				position: absolute
+				width: 105%
+				height: 115%
+				filter: blur(10px)
+				border-radius: 30px
+				top: -3px
+				left: -3px
+				z-index: -1
+				background: linear-gradient(90deg, #00a2e4, #a7cd6b, #00a2e4, #a7cd6b, #00a2e4)
+				background-size: 500%
+				animation: move 28s linear infinite
+		.like:hover
+			animation: move 8s linear infinite
+			&::before
+				animation: move 8s linear infinite
+		.right-ul
+			li
+				border-radius: 50%
+				width: 30px
+				height: 30px
+				text-align: center
+				line-height: 30px
+				background: rgba(255,255,255,0.6)
+				overflow: hidden
+				margin-left: 8px
+				&:hover
+					background: rgba(255,255,255,1)
+				a
+					color: rgba(17,17,17,0.8)
+					padding: 6px
+					i
+						left: 1px
+				.facebook_r
+					&:hover
+						color: #365899
+				.instagram_r
+					&:hover
+						color: #d52876
+				.line_r
+					&:hover
+						color: #00bb25
+				.telegram_r
+					&:hover
+						color: #0088cc
+				.twitter_r
+					&:hover
+						color: #66c3f6
+				.youtube_r
+					padding: 6px 5px
+					&:hover
+						color: #ea5728
+				.plurk_r
+					&:hover>.plurk_icon
+						filter: grayscale(0) contrast(100%)
+					.plurk_icon
+						top: -2px
+						width: 13px
+						height: auto
+						filter: grayscale(1) contrast(4)
+				
+		@keyframes move
+			0%
+				background-position: 0
+			100%
+				background-position: 500%
+	.page_c-content
+		padding: 125px 110px 30px 110px
+		a
+			color: #0074d9
+			&:hover
+				color: #00a2e4
+		img
+			width: 100%
+		.see
+			background: #fbf8e3
+			padding: 6px 20px	
+			color: #af8b4c
+			border-radius: 8px	
+			transition: all 500ms	
+			transition-delay: 100ms
+			display: block
+			&:hover
+				background: #af8b4c
+				color: #fbf8e3
+				text-shadow: 0 1px 1px #000
+		.title
+			.title_name
+				padding: 0 10px
+			.title_other
+				color: #999
+				padding: 10px
+				border-top: 1px solid #ccc
+				border-bottom: 1px solid #ccc
+				li
+					margin: 0 0 0 10px
+					&:not(:first-child)
+						width: 30px
+						height: 30px
+					a	
+						display: block
+						width: 100%
+						height: 100%
+						border-radius: 50%
+						text-shadow: 0 2px 1px #fff
+						transition: all 500ms
+						transition-delay: 100ms
+						text-align: center
+						line-height: 30px
+					.heart_t
+						color:#aaa
+						&:hover
+							color: #09f
+					.facebook_t
+						color: #3b5998
+						&:hover
+							background-color: #3b5998
+							color: #fff
+							text-shadow: none
+					.twitter_t
+						color: #66c3f6
+						&:hover
+							background-color: #66c3f6
+							color: #fff
+							text-shadow: none
+						i
+							left: 1px
+		.repost
+			margin-top: 50px
+			padding: 5px 20px
+			border: 1px solid #ccc
+			color: #777
+		.text
+			margin: 25px 145px 0
+		.c-img
+			margin-top: 50px
+		.img-text
+			margin: 25px 50px 0
+			color: #666
+			span
+				color: #999
+		.extend,.refer
+			padding: 0px 20px
+			.e-title
+				padding: 12px 0
+				border-bottom: 1px solid #999
+				border-top: 1px solid #999
+			.extend.e-title
+				margin-top: 75px
+			ul
+				padding: 30px 2px
+				margin-left: 40px
+				li
+					list-style-type: decimal
+					color: #ccc
+					font-weight: 500
+					&:hover
+						color: #999
+					a
+						top: -5px
+						color: #999
+						color: #000
+						border-bottom: 2px solid #c1f1f1
+						box-shadow: inset 0 -5px 0 #c1f1f1
+						padding-bottom: 2px
+						font-weight: formal
+						&:hover
+							background-color: rgba(0,162,228,.1)
+							color: #00a2e4
+							.hover
+								opacity: 1
+					.hover
+						max-width: 269px
+						padding: 0 8px
+						background: #7edaff
+						top: -1px
+						color: #fff
+						opacity: 0
+						transition: all .15s
+					.extend.hover
+						width: 269px
+		.refer
+			ul
+				padding: 30px 2px 0
+				display: none	
+			.hover
+				width: 280px
+				overflow: hidden
+				text-overflow: ellipsis
+				white-space: nowrap
+		.report
+			margin-top: 50px
+			border: 1px solid #ccc
+			&:hover
+					border: 1px solid #00a2e4
+			a
+				display: block
+				padding: 20px
+			.re_text:first-child
+				color: #555
+			.re_text
+				color: #777
+			span
+				color: #aaa
+		.share
+			width: 100%
+			margin: 25px 0 0 0
+			a
+				display: block
+				width: 25%
+				line-height: 36px
+			.line_s
+				background: #00bb25
+				.fa-line
+					font-size: 32px
+					color: #00bb25
+					background: #fff
+					width: 25px
+					height: 23px
+					overflow: hidden
+					top: 5px
+					margin-right: 2px
+					&::before
+						position: absolute
+						top: -4px
+						left: -2px
+			.facebook_s
+				background: #3b5998
+			.instagram_s
+				background: #d52876
+			.plurk_s
+				background: #e9443d
+				.img_s
+					width: 20px
+					height: 20px
+					border-radius: 50%
+					background: #fff
+					overflow: hidden
+				img
+					width: 13px
+					top: -10px
+					left: 0.5px
+		.MYtab
+			.tabsNav
+				margin-top: 25px
+				border-top: 1px solid #fff
+				border-bottom: 1px solid #ccc
+				a
+					padding: 0 30px
+					border-left: 1px solid #ccc
+					height: 28px
+					color: #aaa
+					&:hover
+						color: #000
+			.tag
+				display: inline-block
+				margin: 3px 5px
+				padding: 5px 9px 4px 10px
+				border-radius: 10px
+				color: #000
+				text-shadow: 0 1px 1px #fff
+				box-shadow: inset 0 0 5px #555
+				transition: all, 500ms
+				&:hover
+					background-image: linear-gradient(#fff, #ccc)
+					box-shadow: 0 0 5px #555
+			#tab > div
+				display: none
+				height: 0
+			span:target ~ #tab > ul li:nth-child(2) a
+				color: #aaa
+				transition: all, 500ms
+				&:hover
+					color: #000
+			span:target ~ #tab > div:nth-of-type(2)
+				display: none
+				height: 0
+			span ~ #tab > ul li:nth-child(2) a,
+			#sort:target ~ #tab > ul li .tab-sort,
+			#arti:target ~ #tab > ul li .tab-arti,
+			#site:target ~ #tab > ul li .tab-site,
+				color: #000
+				transition: all, 500ms
+			span ~ #tab > div:nth-of-type(2),
+			#sort:target ~ #tab > .sort,
+			#arti:target ~ #tab > .arti,
+			#site:target ~ #tab > .site,
+				display: block
+				z-index: 1
+				height: 64px
+				color: #000
+				padding: 15px 10px
+				border-top: 1px solid #fff
+				border-bottom: 1px solid #ccc
+		.hot
+			.card
+				border: 0
+				border-radius: 0
+				background: transparent
+				overflow: hidden
+				&:hover
+					.card-body
+						color: #00a2e4
+				.card-img-top
+					border: 0
+					border-radius: 0
+					width: 100%
+					height: 150px
+					overflow: hidden
+					img
+						width: 100%
+						height: 100%
+						transition: all, 500ms
+						&:hover
+							transform: scale(1.1)
+				.wi-100
+					height: 310px
+				.card-body
+					border: 0
+					border-radius: 0
+					font-size: 18px
+					padding: 10px 5px 0
+					margin-bottom: 10px
+					color: #000
+					height: 64px
+					display: -webkit-box
+					-webkit-line-clamp: 2
+					-webkit-box-orient: vertical
+					overflow: hidden
+					text-overflow: ellipsis
+					transition: .15s
+			.card-w
+				.card-body
+					height: 37px
+					-webkit-line-clamp: 1
+			.card-big
+				&:hover
+					.card-body
+						color: #fff
+				.card-body
+					position: absolute
+					left: 0
+					bottom: 0
+					font-weight: 700
+					color: #fff
+					padding: 10px 12px 0
+		.page_click
+			z-index: 20
+			position: relative
+			height: 60px
+			.page_btn
+				a
+					padding: 20px 10px 20px 10px
+					height: 100px
+					width: 60px
+					border-radius: 20px
+					color: #fff
+					text-shadow: 0 1px 10px #000
+					top: 50%
+					transform: translateY(-50%)
+					opacity: 0.7
+					&:hover
+						width: 410px
+						background: #222
+						box-shadow: 0 0 10px rgba(0,0,0,0.8)
+						color: #fff
+						opacity: 1
+						i
+							color: #fff
+						img
+							display: block
+						span
+							color: #fff
+							display: block
+					img
+						height: 60px
+						box-shadow: 0 0 20px rgba(0,0,0,0.8)
+						display: none
+					span
+						display: none
+		.MYcar
+			margin-top: 25px
+			#tab
+				width: 158%
+				left: 50%
+				transform: translateX(-50%)
+			.tabsNav
+				li
+					display: block
+					margin: 10px
+					width: 7px
+					height: 7px
+					border-radius: 50%
+				a
+					display: block
+					width: 100%
+					height: 100%
+					border-radius: 50%
+					font-size: 0
+					background: #aaa
+					&:hover
+						background: #000
+			.btnC
+				position: absolute
+				z-index: 10
+				width: 125px
+				padding: 10px 0
+				border: 3px solid #fff
+				border-radius: 100px
+				color: #fff
+				font-size: 20px
+				letter-spacing: 3px
+				text-shadow: 2px 2px 5px #333
+				box-shadow: 2px 2px 5px #333
+				animation: button 1.5s linear infinite
+				cursor: pointer
+				top: 160px
+				left: 20px
+			@keyframes button
+				0%
+					transform: scale(0.9)
+				50%
+					transform: scale(1)
+				100%
+					transform: scale(0.9)
+			#tab > div
+				display: inline-block
+				margin: 7px
+				width: 300px
+				height: 250px
+				opacity: 0.8
+			span:target ~ #tab > ul li:nth-child(1) a
+				background: #aaa
+				transition: all, 500ms
+				&:hover
+					background: #000
+			span:target ~ #tab > div:nth-of-type(1)
+				display: inline-block
+				width: 300px
+				height: 250px
+				opacity: 0.8
+			span ~ #tab > ul li:nth-child(1) a,
+			#C1:target ~ #tab > ul li .tab-C1,
+			#C2:target ~ #tab > ul li .tab-C2,
+			#C3:target ~ #tab > ul li .tab-C3,
+			#C4:target ~ #tab > ul li .tab-C4,
+			#C5:target ~ #tab > ul li .tab-C5,
+				background: #000
+				transition: all, 500ms
+			span ~ #tab > div:nth-of-type(1),
+			#C1:target ~ #tab > .c1,
+			#C2:target ~ #tab > .c2,
+			#C3:target ~ #tab > .c3,
+			#C4:target ~ #tab > .c4,
+			#C5:target ~ #tab > .c5,
+				display: inline-block
+				z-index: 1
+				width: 300px
+				height: 250px
+				opacity: 1
+		.hot
+			.small-text
+				color: #999
+				font-size: 12px
+				height: 20px
+				padding: 0
+				margin: 0
+			.card2
+				overflow: hidden
+				&:hover
+					.card-body
+						.card-text
+							color: #00a2e4
+				.card-img-top
+					width: 288px
+					height: 180px
+					img
+						width: 100%
+				.card-body
+					background: #fff
+					padding: 10px 10px 0 10px
+					font-size: 22px
+					transition: .15s
+					.card-text
+						color: #000
+						margin: 0
+						height: 63px
+						word-break: break-all
+						display: -webkit-box
+						-webkit-line-clamp: 2
+						-webkit-box-orient: vertical
+						overflow: hidden
+						text-overflow: ellipsis
+					
+			.card3
+				overflow: hidden
+				&:hover
+					.card-body
+						.card-text
+							color: #00a2e4
+				.card-img-top
+					width: 188px
+					height: 118px
+					img
+						width: 100%
+				.card-body
+					background: #fff
+					padding: 10px 10px 0 10px
+					font-size: 18px
+					transition: .15s
+					.card-text
+						color: #000
+						margin: 0
+						word-break: break-all
+						display: -webkit-box
+						-webkit-line-clamp: 2
+						-webkit-box-orient: vertical
+						overflow: hidden
+						text-overflow: ellipsis
+						height: 53px
+
+					
+				

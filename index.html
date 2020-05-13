@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/home.css">
+	<title>文章總覽 | DQ 地球圖輯隊</title>
+</head>
+
+<body>
+	<div class="modal le-sp-2 top-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content border-0 rounded-0">
+				<div class="modal-header d-flex align-items-center justify-content-center">
+					<div class="toOlder active">
+						<a class="fz-16" href="#"><span class="fz-15">DQ</span> 地球圖輯隊精選文章不漏接</a>
+						<button class="btn fz-14 m-btn">開啟通知</button>
+					</div>
+				</div>
+				<button type="button" class="close fz-13" data-dismiss="modal" aria-label="Close">
+					<i class="far fa-times fz-13"></i>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid p-0 d-flex wrap" id="wrap">
+		<header class="mx-0 my-0 px-0 le-sp-2" id="H1">
+			<a class="header_btn" href="#" title="主選單打開">
+				<i class="far fa-chevron-right"></i>
+			</a>
+			<nav class="nav-top">
+				<ul>
+					<li>
+						<a href="#" data-toggle="tooltip" data-placement="right" title="地球圖輯隊首頁" data-animation="false">
+							<div class="top_left d-inline-block">
+								<img src="img/logoIco.png" alt=""></div>
+							<span class="top_right ">
+								<img src="img/logo-2.png" alt=""></span>
+						</a>
+					</li>
+				</ul>
+
+			</nav>
+			<nav class="nav-main">
+				<div class="my-scroll">
+					<div class="scroll-bar"></div>
+				</div>
+				<ul>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="贊助我們"
+							data-animation="false">
+							<div class="nav_left" style="color: #61c2f0;">
+								<i class="fas fa-leaf"></i></div>
+							<span class="nav_right">贊助我們</span>
+						</a>
+					</li>
+					<li>
+						<a href="index.html" class="d-flex" data-toggle="tooltip" data-placement="right" title="文章總覽"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-bars"></i></div>
+							<span class="nav_right">文章總覽</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="搜尋文章"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-search"></i></div>
+							<span class="nav_right">搜尋文章</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="地球24小時"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-clock"></i></div>
+							<span class="nav_right">地球24小時</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="地球商號"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-gift"></i></div>
+							<span class="nav_right">地球商號</span>
+						</a>
+					</li>
+					<div class="card bg-transparent text-white border-0 rounded-0">
+						<div class="card-header fz-13 rounded-0 font-weight-bold">
+							本日新文
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item bg-transparent p-0">
+								<a href="#" class="d-flex fz-15 p-7-12" data-toggle="tooltip" data-placement="right"
+									title="合唱團也能「遠距教學」？費城男孩合唱團親身示範" data-animation="false">
+									<span class="new fz-10"><i>NEW</i></span>
+									<span class="ov-hidden">合唱團也能「遠距教學」？費城男孩合唱團親身示範</span>
+								</a>
+							</li>
+							<li class="list-group-item bg-transparent p-0">
+								<a href="#" class="d-flex fz-15 p-7-12" data-toggle="tooltip" data-placement="right"
+									title="保平安、反核四、選總統都請託夢！媽祖如何成為臺灣最強天后？" data-animation="false">
+									<span class="new fz-10"><i>NEW</i></span>
+									<span class="ov-hidden">保平安、反核四、選總統都請託夢！媽祖如何成為臺灣最強天后？</span>
+								</a>
+							</li>
+							<li class="list-group-item bg-transparent p-0">
+								<a href="#" class="d-flex fz-15 p-7-12" data-toggle="tooltip" data-placement="right"
+									title="【地球 24小時】04/23 病毒嘟嘟車，出發！" data-animation="false">
+									<span class="new fz-10"><i>NEW</i></span>
+									<span class="ov-hidden">【地球 24小時】04/23 病毒嘟嘟車，出發！</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="card bg-transparent text-white border-0 rounded-0">
+						<div class="card-header fz-13 rounded-0 font-weight-bold">
+							編輯特刊
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item bg-transparent p-0 c-img">
+								<a href="#" class="d-flex fz-15" data-toggle="tooltip" data-placement="right"
+									title="1萬篇達成，你我一起走過的DQ" data-animation="false">
+									<img class="card-img-bottom"
+										src="https://fpscdn.yam.com/world/201809/03/40/5ba60c2970340.jpg?w=600&gr=center"
+										alt="Card image cap">
+									<div class="bg-color"></div>
+									<span class="sp-img fz-13">1萬篇達成，你我一起走過的DQ</span>
+								</a>
+							</li>
+							<li class="list-group-item bg-transparent p-0 c-img">
+								<a href="#" class="d-flex fz-15" data-toggle="tooltip" data-placement="right"
+									title="世界美食在台灣" data-animation="false">
+									<img class="card-img-bottom"
+										src="https://fpscdn.yam.com/MjY1NzIyMTd3b3JsZA==/f0f55e03330490bc.jpg?w=600&gr=center"
+										alt="Card image cap">
+									<div class="bg-color"></div>
+									<span class="sp-img fz-13">世界美食在台灣</span>
+								</a>
+							</li>
+							<li class="list-group-item bg-transparent p-0 c-img">
+								<a href="#" class="d-flex fz-15" data-toggle="tooltip" data-placement="right"
+									title="沒有多少人看的單元，為何還要買萬張照片?" data-animation="false">
+									<img class="card-img-bottom"
+										src="https://fpscdn.yam.com/MjcwMjgxODN3b3JsZA==/e0a576a46894259a.jpg?w=600&gr=center"
+										alt="Card image cap">
+									<div class="bg-color"></div>
+									<span class="sp-img fz-13">沒有多少人看的單元，為何還要買萬張照片?</span>
+								</a>
+							</li>
+							<li class="list-group-item bg-transparent p-0 c-img">
+								<a href="#" class="d-flex fz-15" data-toggle="tooltip" data-placement="right"
+									title="網路酸民都在想什麼？" data-animation="false">
+									<img class="card-img-bottom"
+										src="https://fpscdn.yam.com/world/201710/0a/e3/59e5c41570ae3.jpg?w=600&gr=center"
+										alt="Card image cap">
+									<div class="bg-color"></div>
+									<span class="sp-img fz-13">網路酸民都在想什麼？</span>
+								</a>
+							</li>
+							<li class="list-group-item bg-transparent p-0 c-img">
+								<a href="#" class="d-flex fz-15" data-toggle="tooltip" data-placement="right"
+									title="荷蘭公廁性別大戰" data-animation="false">
+									<img class="card-img-bottom"
+										src="https://fpscdn.yam.com/world/201710/f3/ab/59e5c50c5f3ab.jpg?w=600&gr=center"
+										alt="Card image cap">
+									<div class="bg-color"></div>
+									<span class="sp-img fz-13">荷蘭公廁性別大戰</span>
+								</a>
+							</li>
+							<li class="list-group-item bg-transparent p-0 c-img">
+								<a href="#" class="d-flex fz-15" data-toggle="tooltip" data-placement="right"
+									title="地球幫你問各國大小事！" data-animation="false">
+									<img class="card-img-bottom"
+										src="https://fpscdn.yam.com/MjcwMjgxOTR3b3JsZA==/317576a47f97c0ca.jpg?w=600&gr=center"
+										alt="Card image cap">
+									<div class="bg-color"></div>
+									<span class="sp-img fz-13">地球幫你問各國大小事！</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="合作夥伴"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-th"></i></div>
+							<span class="nav_right">合作夥伴</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex login" data-toggle="tooltip" data-placement="right" title="會員登入"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-power-off"></i></div>
+							<span class="nav_right">會員登入</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="我的收藏"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-heart"></i></div>
+							<span class="nav_right">我的收藏</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="facebook 粉絲團"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fab fa-facebook-square"></i></div>
+							<span class="nav_right">facebook 粉絲團</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="line 通知"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-comment"></i></div>
+							<span class="nav_right">LINE 通知</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="nav-footer">
+				<ul>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="關於地球圖輯隊"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-info-circle"></i></div>
+							<span class="nav_right">關於地球圖輯隊</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex" data-toggle="tooltip" data-placement="right" title="使用說明"
+							data-animation="false">
+							<div class="nav_left">
+								<i class="fas fa-book"></i></div>
+							<span class="nav_right">使用說明</span>
+						</a>
+					</li>
+			</nav>
+		</header>
+		<div class="mainContent">
+			<div class="c-nav">
+				<div>
+					<div class="d-flex align-items-center">
+						<span class="fz-25 le-sp-2"><i class="fas fa-bars"></i>文章總覽</span>
+						<a class="fz-15" href="#"><i class="fas fa-search"></i><span>搜尋</span></a>
+						<a class="fz-15" href="#"><i class="fas fa-heart"></i><span>收藏</span></a>
+					</div>
+					<span>總共<i class="f-eng"> 12118</i>件</span>
+				</div>
+			</div>
+			<div class="c-content le-sp-2 d-flex flex-wrap">
+				<div class="card border-0 rounded-0">
+					<a href="html/page.html" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/53/01/5ea2ea3835301.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-26 16:00:00</div>
+							<div class="card-title fz-18">武漢肺炎改善空氣品質，德國、英國太陽能發電量創新高</div>
+							<div class="card-text fz-13 pt-2">
+								武漢肺炎大幅改變人們的生活方式，為了避免群聚感染，許多國家祭出居家令、限行令，若非購買物資或是緊..隨之降低，這反應在太陽能發電量上，外媒報導指出，英國、西班牙、德國三大太陽光電市場創新紀錄。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>1014</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/50/52/5ea2e8b495052.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-26 12:00:00</div>
+							<div class="card-title fz-18">瘟疫電影的省思 真正的敵人不是同胞</div>
+							<div class="card-text fz-13 pt-2">
+								在對抗瘟疫的同時，我們經常會忘記，真正的敵人是病毒、是細菌，而不是同胞。這一點，數百年來，幾乎沒有改變過。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>1348</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/3a/39/5ea4d76663a39.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-26 11:00:00</div>
+							<div class="card-title fz-18">【地球 24小時】04/24 走一百圈，募十億</div>
+							<div class="card-text fz-13 pt-2">
+								首圖故事：今年 99歲的英國二戰老兵穆爾募到了十億元......
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>2042</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/35/40/5ea2deaf93540.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-25 16:00:00</div>
+							<div class="card-title fz-18">合唱團也能「遠距教學」？費城男孩合唱團親身示範</div>
+							<div class="card-text fz-13 pt-2">
+								「亞美利加」（America）這四個字的最佳演唱方式為何？
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>3037</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/94/37/5ea2d40ed9437.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-25 12:00:00</div>
+							<div class="card-title fz-18">保平安、反核四、選總統都請託夢！媽祖如何成為臺灣最強天后？</div>
+							<div class="card-text fz-13 pt-2">
+								「三月瘋媽祖」是臺灣獨有的宗教文化。媽祖信仰跨過黑水溝，在臺灣落地生根後，發展出本土在地特色，包..福建移民到澳門之後，在當地保留了特殊的祭典儀式，信徒會在媽祖昇天日到海邊焚燒紙船，舉行海祭。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>5346</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/5d/ed/5ea38b1e05ded.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-25 11:00:00</div>
+							<div class="card-title fz-18">【地球 24小時】04/23 病毒嘟嘟車，出發！</div>
+							<div class="card-text fz-13 pt-2">
+								首圖故事：印度街頭出現了一輛別出心裁的嘟嘟車......
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>5976</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/b3/e6/5ea287bd9b3e6.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-24 17:15:25</div>
+							<div class="card-title fz-18">新月已經升起 但COVID-19還沒離開 2020穆斯林齋戒月怎麼辦？</div>
+							<div class="card-text fz-13 pt-2">
+								這兩天，全球各地的穆斯林紛紛迎來伊斯蘭教最重要的活動之一—齋戒月，但是在COVID-19(武漢肺炎)疫情底下，要如何兼顧穆斯林們的信仰又要掌控疫情，成了各國政府的新難題。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>5078</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/5f/eb/5e9fbcd785feb.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-24 16:53:27</div>
+							<div class="card-title fz-18">【地球咬一口】「九層塔，十里香」台灣小吃少不了它</div>
+							<div class="card-text fz-13 pt-2">
+								塔香茄子、三杯料理、九層塔烘蛋......這些都是少不了九層塔的台灣美食。今天，小隊長就要帶著大家，一起來認識常常出現在我們餐盤中的九層塔。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>8320</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/fc/a2/5ea28f407fca2.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-24 16:14:55</div>
+							<div class="card-title fz-18">不只是君臨城，還是隔離之城：克羅埃西亞的杜布羅夫尼克</div>
+							<div class="card-text fz-13 pt-2">
+								提到位於克羅埃西亞的杜布羅夫尼克、這座緊鄰亞得里亞海的城市，大家最有印象的或許是知名影集《冰與火..在中古世紀時，是第一座立法通過隔離檢疫命令，並且在
+								17世紀建立「隔離醫院建築群」的城市嗎？
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>9265</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/d8/f4/5ea036b07d8f4.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-24 13:58:28</div>
+							<div class="card-title fz-18">COVID-19過後的世界 義大利米蘭的交通新狂想</div>
+							<div class="card-text fz-13 pt-2">
+								COVID-19(武漢肺炎)給米蘭沉重的一拳，但是從另一個角度看，米蘭很可能也站在一個重要的十字路口。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>6879</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/3f/5e/5ea18e6823f5e.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-24 12:02:56</div>
+							<div class="card-title fz-18">日本傳說裡的瘟疫救星 戰勝COVID-19就靠「Amabie」</div>
+							<div class="card-text fz-13 pt-2">
+								如果日本妖怪傳說是真的，那麼在COVID-19面前，人們的第一要務不是待在家不出門，而是打開手機，立刻將妖怪「Amabie」的圖片分享給親朋好友們。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>11365</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/0b/d5/5ea24b8950bd5.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-24 11:00:00</div>
+							<div class="card-title fz-18">【地球 24小時】04/22 你好，我的名字叫COVID</div>
+							<div class="card-text fz-13 pt-2">
+								首圖故事：一隻名叫COVID的水牛望向鏡頭......
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>9863</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/9b/71/5ea1498dc9b71.png?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-23 18:07:02</div>
+							<div class="card-title fz-18">誰的展品最奇怪？全球博物館線上開戰</div>
+							<div class="card-text fz-13 pt-2">
+								在沒有參觀民眾的現在，全球各大博物館在網路上秀出壓箱寶，要讓世界各地的網友看看，究竟誰家的展品最奇怪。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>13888</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/b5/9b/5ea129d45b59b.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-23 18:06:11</div>
+							<div class="card-title fz-18">自然的聲音最對味 讓野地錄音師在你的耳機裡重建一片森林</div>
+							<div class="card-text fz-13 pt-2">
+								也許你不一定能出門，但是大自然的聲音仍然能充斥在你的生活中。
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>8166</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/f5/57/5ea0f7736f557.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-23 11:00:00</div>
+							<div class="card-title fz-18">【地球 24小時】04/21 天天都要量額溫</div>
+							<div class="card-text fz-13 pt-2">
+								首圖故事：一名防疫人員正在幫一名小女孩量額溫......
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>10018</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card border-0 rounded-0">
+					<a href="#" class="img-wrap">
+						<img src="https://fpscdn.yam.com/world/202004/22/9f/5ea0068a2229f.jpg?h=220&gr=center&v=20180223"
+							class="card-img-top rounded-0">
+						<div class="card-body bg-white">
+							<div class="card-new"></div>
+							<div class="fz-10 text-black-50">2020-04-22 17:28:06</div>
+							<div class="card-title fz-18">從抖音到迷因 迦納抬棺手如何全球爆紅？</div>
+							<div class="card-text fz-13 pt-2">
+								過去，我們曾報導西非國家迦納造型五花八門的特色棺材，今天，我們要帶大家一起來看看，迦納出現的特色..的西裝、鞋子等等，然後我開始招募新人加入我的行列，開始訓練他們。現在我已經有自己的事業了。」
+							</div>
+						</div>
+					</a>
+					<ul class="card-footer m-0 bg-white p-0 d-flex rounded-0 align-items-center">
+						<li class="fz-10 d-flex">
+							<span><i class="far fa-eye"></i>14634</span>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="分享到 facebook"
+								data-animation="false">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-18" href="#" data-toggle="tooltip" data-placement="top" title="分享到 twitter"
+								data-animation="false">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a class="fz-15" href="#" data-toggle="tooltip" data-placement="top" title="加入收藏"
+								data-animation="false">
+								<i class="fas fa-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="c-page">
+				<nav aria-label="Page navigation">
+					<ul class="pagination justify-content-center">
+						<li class="page-item">
+							<a class="page-link text-center w-auto page-pre" href="#" aria-label="Previous">
+								<i class="far fa-chevron-left fz-10"></i>
+							</a>
+						</li>
+						<li class="page-item page-next">
+							<a class="page-link text-center w-auto" href="#" aria-label="Next">
+								<i class="far fa-chevron-right fz-10"></i>
+							</a>
+						</li>
+						<li class="page-item"><a class="page-link text-center w-auto active" href="#">1</a></li>
+						<li class="page-item"><a class="page-link text-center w-auto" href="#">2</a></li>
+						<li class="page-item"><a class="page-link text-center w-auto" href="#">3</a></li>
+						<li class="page-item"><a class="page-link text-center w-auto" href="#">4</a></li>
+						<li class="page-item"><a class="page-link text-center w-auto" href="#">5</a></li>
+					</ul>
+				</nav>
+			</div>
+			<footer class="d-flex le-sp-1 fz-13">
+				<div class="footer-left">
+					<ul class="footer-nav d-flex align-items-center">
+						© 2020
+						<img src="img/yam_logo.png" alt="" class="ml-1 mr-2">
+						<a href="#">蕃薯藤</a>, all rights reserved.
+						<li class="ml-1"><a href="#">關於地球圖輯隊</a></li>
+						<li><a href="#">常見問題</a></li>
+						<li><a href="#">隱私政策</a></li>
+					</ul>
+					<ul class="footer-link d-flex">
+						<li class="mr-4"><a href="#">
+								<i class="fab fa-facebook-f fz-25 mx-2"></i>
+								<span>粉絲團</span></a></li>
+						<li class="mr-4"><a href="#">
+								<i class="fas fa-rss fz-25 mx-2"></i>
+								<span>RSS</span></a></li>
+						<li class="mr-4"><a href="#">
+								<i class="fal fa-envelope fz-25 mx-2"></i>
+								<span>意見信箱</span></a></li>
+						<li><a href="#">
+								<i class="fas fa-mobile-alt fz-25 mx-2"></i>
+								<span>行動版</span></a></li>
+					</ul>
+				</div>
+				<div class="footer-right fz-10 mt-2">
+					licensed under a
+					<a href="#">Creative Commons Attribution-ShareAlike 3.0 Unported License</a><br>
+					<a href="#" data-toggle="tooltip" data-placement="top" title="Made classy_fabric.png"
+						data-animation="false">
+						Richard Tabor</a>.
+					<a href="#" data-toggle="tooltip" data-placement="top" title="Made carbon_fibre.png"
+						data-animation="false">
+						Atle Mo</a>.
+					<a href="#" data-toggle="tooltip" data-placement="top" title="Made bgnoise_lg.png"
+						data-animation="false">
+						Nikolalek</a>.
+					<a href="#" data-toggle="tooltip" data-placement="top" title="Made darkdenim3.png"
+						data-animation="false">
+						Brandon Jacoby</a>.
+				</div>
+				<a class="gotoTop" href="#wrap">
+					<i class="far fa-chevron-double-up fz-17"></i></a>
+			</footer>
+		</div>
+	</div>
+	<div class="modal right-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+		<div class="modal-content border-0 rounded-0">
+			<a href="#">
+				<img src="img/egypt101.png" alt=""></a>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<i class="fas fa-times"></i>
+			</button>
+		</div></div>
+	</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+		integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+		crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
