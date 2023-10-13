@@ -1,3 +1,3 @@
-# general_course-Imitation_DQ
+### 仿製網站練習
 
-The original website image URL seems to have been lost
+>原本網站的圖片連結失效
